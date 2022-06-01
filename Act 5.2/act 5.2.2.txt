@@ -1,0 +1,21 @@
+le cinquième livre dans la liste
+//award[5]
+
+l'auteur du sixième livre dans la liste
+//award[5]/author
+
+le titre du livre qui a gagné en 2000
+//award[year='2000']/title
+
+le nom de l'auteur du livre intitulé "Possession"
+//award[title='Possession']/author
+
+le titre des livres dont "J M Coetzee" est l'auteur
+//award[author='J M Coetzee']/title
+
+le nom de tous les auteurs qui ont obtenu un prix depuis 1995
+//award[year > '1995']/author
+
+le nombre total de prix décernés
+count(//award)
+

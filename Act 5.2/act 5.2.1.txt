@@ -1,0 +1,11 @@
+toutes les compositions
+//composition
+(autre solution) /CDlist/CD/performance/composition
+toutes les compositions ayant un "soloist"
+//performance[soloist]/composition
+toutes les performances avec un seul "orchestra" mais pas de "soloist"
+//performance[not(soloist) and orchestra]
+tous les soloists ayant joué avec le London Symphony Orchestra sur un CD publié par Deutsche Grammophon
+/CDlist/CD[publisher="Deutsche Grammophon"]/performance[orchestra="London Symphony Orchestra"]/soloist
+tous les CDs comportant des performances du London Symphony Orchestra
+/CDlist/CD[performance[orchestra="London Symphony Orchestra"] ]
